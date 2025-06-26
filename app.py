@@ -4,7 +4,7 @@ import pandas as pd
 # Page config
 
 st.set_page_config(
-page_title=“L31L420 Calculator”,
+page_title="L31L420 Calculator",
 page_icon=“🌉”,
 layout=“wide”
 )
