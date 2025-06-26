@@ -4,7 +4,7 @@ import pandas as pd
 # Page config
 
 st.set_page_config(
-page_title=“Bridge’s Nuclear Reality Check Calculator”,
+page_title=“L31L420 Calculator”,
 page_icon=“🌉”,
 layout=“wide”
 )
@@ -36,30 +36,30 @@ st.markdown(”””
 
 # Dramatic title
 
-st.markdown(’<p class="big-font">🌉 BRIDGE'S NUCLEAR REALITY CHECK CALCULATOR 🌉</p>’, unsafe_allow_html=True)
-st.markdown(”### *EXPOSING CRIMINAL LOWBALL OFFERS & LLC FRAUD*”)
+st.markdown(’<p class="big-font">🌉 L31L420 CALCULATOR 🌉</p>’, unsafe_allow_html=True)
+st.markdown(”### *EXPOSING CRIMINAL OFFERS & LLC FRAUD*”)
 st.error(”**🚨 BRIDGE MAKES $236K+ AND OFFERS $779/MONTH - THIS IS THEFT! 🚨**”)
 
 # Alert banner
 
-st.warning(“⚠️ **ATTORNEY ALERT:** Bridge’s offer is 97% below Massachusetts guidelines - potential contempt of court! ⚠️”)
+st.warning(“⚠️ **ATTORNEY ALERT:** Bridge offer is 97% below Massachusetts guidelines - potential contempt of court! ⚠️”)
 
 # Sidebar for inputs
 
-st.sidebar.header(“📊 BRIDGE’S REAL FINANCIALS”)
-st.sidebar.markdown(”*Enter Bridge’s TRUE income below*”)
+st.sidebar.header(“📊 BRIDGE REAL FINANCIALS”)
+st.sidebar.markdown(”*Enter Bridge TRUE income below*”)
 
-# Bridge’s REAL income with dramatic display
+# Bridge REAL income with dramatic display
 
-bridge_base_bonus = st.sidebar.number_input(“🎯 Bridge’s Base + Bonus (3yr avg)”, value=236000, step=5000, help=“Bridge’s documented salary and bonuses”)
-bridge_rental_income = st.sidebar.number_input(“🏠 Bridge’s Rental Income”, value=30000, step=2000, help=“Income from properties”)
+bridge_base_bonus = st.sidebar.number_input(“🎯 Bridge Base + Bonus (3yr avg)”, value=236000, step=5000, help=“Bridge’s documented salary and bonuses”)
+bridge_rental_income = st.sidebar.number_input(“🏠 Bridge Rental Income”, value=30000, step=2000, help=“Income from properties”)
 bridge_other_income = st.sidebar.number_input(“💼 Other Income (consulting, etc)”, value=15000, step=1000, help=“Side income, investments, etc”)
 bridge_total_income = bridge_base_bonus + bridge_rental_income + bridge_other_income
 bridge_monthly_gross = bridge_total_income / 12
 
 # Display the REAL income with emphasis
 
-st.sidebar.error(f”🔥 BRIDGE’S TOTAL: ${bridge_total_income:,.0f}/year”)
+st.sidebar.error(f”🔥 BRIDGE TOTAL: ${bridge_total_income:,.0f}/year”)
 st.sidebar.error(f”💰 MONTHLY GROSS: ${bridge_monthly_gross:,.0f}”)
 st.sidebar.info(f”That’s ${bridge_monthly_gross:,.0f} per month!”)
 
@@ -67,8 +67,8 @@ st.sidebar.info(f”That’s ${bridge_monthly_gross:,.0f} per month!”)
 
 st.sidebar.header(“👫 MARRIAGE DETAILS”)
 marriage_length = st.sidebar.number_input(“Marriage Length (years)”, value=22, step=1)
-leila_age = st.sidebar.number_input(“Leila’s Age”, value=52, step=1)
-bridge_age = st.sidebar.number_input(“Bridge’s Age”, value=54, step=1)
+leila_age = st.sidebar.number_input(“Leila’s Age”, value=56, step=1)
+bridge_age = st.sidebar.number_input(“Bridge’s Age”, value=56, step=1)
 
 # Leila’s circumstances
 
@@ -494,7 +494,7 @@ help=“50-60% of marital assets (fraud penalty)”
 
 with war_col3:
 st.metric(
-“🤡 Bridge’s Insulting Offer”,
+“🤡 Bridge Insulting Offer”,
 f”${bridge_offer}”,
 delta=f”-${alimony_30_pct - bridge_offer:,.0f}”,
 delta_color=“inverse”
@@ -511,7 +511,7 @@ help=“How much Bridge tries to steal per year”
 # Final battle cry
 
 st.markdown(”—”)
-st.error(“🚨 **BRIDGE’S $779 OFFER IS 97% BELOW MASSACHUSETTS GUIDELINES - POTENTIAL CONTEMPT!** 🚨”)
+st.error(“🚨 **BRIDGE $779 OFFER IS 97% BELOW MASSACHUSETTS GUIDELINES - POTENTIAL CONTEMPT!** 🚨”)
 st.success(“⚖️ **WITH $236K INCOME + LLC FRAUD EVIDENCE, DEMAND MAXIMUM GUIDELINES + PENALTY!** ⚖️”)
 st.info(“🌉 **REMEMBER: Use Bridge’s phobia - every document should reference ‘bridging’ the gap to fair settlement!** 🌉”)
 
